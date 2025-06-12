@@ -1,0 +1,35 @@
+import psi4
+
+# Set memory and output.
+psi4.set_memory('500 MB')
+psi4.core.set_output_file('H2O..H2O_914_HF_output.dat', False)
+
+# Set options for HF:
+psi4.set_options({
+    'basis': 'aug-cc-pVTZ',
+    'scf_type': 'pk',
+    'freeze_core': True,
+    'e_convergence': 1e-9,
+    'd_convergence': 1e-8,
+})
+
+# Define the molecule.
+molecule H2O..H2O_914 {
+units Bohr
+no_com
+no_reorient
+0 1
+--
+0 1
+   O1              0.00000000       0.00000000       0.00000000
+   H1             -1.45365196       0.00000000      -1.12168732
+   H2              1.45365196       0.00000000      -1.12168732
+--
+0 1
+   O1             -9.69163797       0.00000000      -5.88476580
+   H1            -10.73497129       1.45365242      -5.47289604
+   H2            -10.73497377      -1.45365150      -5.47289909
+}
+
+# Perform a supramolecular HF energy calculation.
+energy('SCF')
