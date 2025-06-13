@@ -38,7 +38,7 @@ from utils.helper_SAPT import helper_SAPT
 # --- Psi4 and Global Settings ---
 BASIS = 'aug-cc-pVTZ'
 MEMORY = '500 MB'
-E_CONV = 1.0e-11
+E_CONV = 1.0e-7
 MAXITER = 100
 
 # --- Output Directory Structure ---

@@ -27,7 +27,7 @@ import pandas as pd
 # Global settings 
 BASIS = 'aug-cc-pVTZ'
 MEMORY = '500 MB'
-E_CONV = 1.0e-11
+E_CONV = 1.0e-7
 MAXITER = 100
 
 # Conversion factor: 1 Angstrom = 1.88973 bohr
@@ -169,6 +169,7 @@ if __name__ == "__main__":
     
     # Run single-point calculations for all systems in SYSTEMS.
     results_dict = run_systems_calculations(SYSTEMS, config=config_default)
+    print('after calcs')
     
     if not results_dict:
         print("No valid results obtained!")

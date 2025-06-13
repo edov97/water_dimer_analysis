@@ -1,0 +1,999 @@
+Running calculation for H2O..H2O_900 at 4.16 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_900
+================================================================================
+Distance: 4.16 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 8cc66359-b72e-4e92-8c1f-8af73270aedf
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 15.73 seconds.
+RHF for monomer B finished in 15.70 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.597 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 68.08 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 5 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 5
+Final Interaction Energy (E_int): 0.03544418729311127 Eh
+Final HF Energy of A (EA): -76.03992854396245 Eh
+Final HF Energy of B (EB): -76.00318805347544 Eh
+Final Deformation Energy of A (dEA): 0.019480799811105953 Eh
+Final Deformation Energy of B (dEB): 0.05627305299340435 Eh
+Final Electrostatic Energy (E_elst): -0.1599028042080377 Eh
+Final Exchange Energy (E_exch): 0.1499274319302324 Eh
+Final Delta LM Energy for A (D_LMA): -0.04290849064855706 Eh
+Final Delta LM Energy for B (D_LMB): 0.01257419741496335 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.030334293233593712 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.061287196532195054 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.1359908496545702 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_900_4.16_all_potentials_20250613_101117.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_900_4.16_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_900_4.16_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_900_4.16_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_901 at 4.35 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_901
+================================================================================
+Distance: 4.35 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 51eaf59a-0dbd-41d9-b75b-094c742e4b66
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 15.66 seconds.
+RHF for monomer B finished in 15.88 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.655 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 68.25 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 5 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 5
+Final Interaction Energy (E_int): 0.02001667675393913 Eh
+Final HF Energy of A (EA): -76.04581520311869 Eh
+Final HF Energy of B (EB): -76.01935526851932 Eh
+Final Deformation Energy of A (dEA): 0.013581058621809916 Eh
+Final Deformation Energy of B (dEB): 0.040094106367618565 Eh
+Final Electrostatic Energy (E_elst): -0.11927764130287244 Eh
+Final Exchange Energy (E_exch): 0.10844331595846678 Eh
+Final Delta LM Energy for A (D_LMA): -0.03301436869605823 Eh
+Final Delta LM Energy for B (D_LMB): 0.01019020580497454 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.022824162891083688 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.048617678302342426 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.09636863588601663 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_901_4.35_all_potentials_20250613_102332.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_901_4.35_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_901_4.35_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_901_4.35_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_902 at 4.54 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_902
+================================================================================
+Distance: 4.54 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 91a07fcc-9a76-4501-9437-9d2ef8123c8e
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 15.56 seconds.
+RHF for monomer B finished in 15.55 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.533 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 67.71 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 4 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 4
+Final Interaction Energy (E_int): 0.009835223622115898 Eh
+Final HF Energy of A (EA): -76.04997108842713 Eh
+Final HF Energy of B (EB): -76.03098510724216 Eh
+Final Deformation Energy of A (dEA): 0.009412431204737004 Eh
+Final Deformation Energy of B (dEB): 0.02844936038582091 Eh
+Final Electrostatic Energy (E_elst): -0.08891676446177854 Eh
+Final Exchange Energy (E_exch): 0.07747305003870922 Eh
+Final Delta LM Energy for A (D_LMA): -0.024806678061139564 Eh
+Final Delta LM Energy for B (D_LMB): 0.008223824515766864 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.0165828535453727 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.03854023330857359 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.06800718629330631 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_902_4.54_all_potentials_20250613_103337.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_902_4.54_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_902_4.54_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_902_4.54_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_903 at 4.72 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_903
+================================================================================
+Distance: 4.72 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: bad2a4cd-0100-4ca0-9ae0-16a169cc4ac2
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 15.99 seconds.
+RHF for monomer B finished in 15.47 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.532 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 68.05 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 4 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 4
+Final Interaction Energy (E_int): 0.0032103579283037954 Eh
+Final HF Energy of A (EA): -76.05280867443952 Eh
+Final HF Energy of B (EB): -76.03920945691156 Eh
+Final Deformation Energy of A (dEA): 0.00656335844760747 Eh
+Final Deformation Energy of B (dEB): 0.020208506128952308 Eh
+Final Electrostatic Energy (E_elst): -0.06661790166639037 Eh
+Final Exchange Energy (E_exch): 0.05480785716881861 Eh
+Final Delta LM Energy for A (D_LMA): -0.018412578432233317 Eh
+Final Delta LM Energy for B (D_LMB): 0.006661116281549084 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.011751462150684233 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.030677113411101686 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.04783322329164931 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_903_4.72_all_potentials_20250613_104326.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_903_4.72_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_903_4.72_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_903_4.72_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_904 at 5.10 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_904
+================================================================================
+Distance: 5.10 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: e404fd93-4fc8-4c80-b5f2-66f25bfbd438
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 15.75 seconds.
+RHF for monomer B finished in 15.13 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.656 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 67.59 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 4 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 4
+Final Interaction Energy (E_int): -0.0035642427800232773 Eh
+Final HF Energy of A (EA): -76.05611987570629 Eh
+Final HF Energy of B (EB): -76.04918563115314 Eh
+Final Deformation Energy of A (dEA): 0.0032307019078530175 Eh
+Final Deformation Energy of B (dEB): 0.010199946068084387 Eh
+Final Electrostatic Energy (E_elst): -0.0382427796405409 Eh
+Final Exchange Energy (E_exch): 0.026733799699577163 Eh
+Final Delta LM Energy for A (D_LMA): -0.00976555312631433 Eh
+Final Delta LM Energy for B (D_LMB): 0.004279642311317389 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.0054859108149969416 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.01990334436985819 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.02348057059539065 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_904_5.10_all_potentials_20250613_105302.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_904_5.10_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_904_5.10_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_904_5.10_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_905 at 5.29 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_905
+================================================================================
+Distance: 5.29 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 1037bdf6-b638-4972-9b66-b2c17e8260b7
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 15.20 seconds.
+RHF for monomer B finished in 14.99 seconds.
+Building ERI tensor...
+...built ERI tensor in 37.017 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 67.27 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 3 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 3
+Final Interaction Energy (E_int): -0.005038879879973927 Eh
+Final HF Energy of A (EA): -76.05704903879516 Eh
+Final HF Energy of B (EB): -76.0521093302935 Eh
+Final Deformation Energy of A (dEA): 0.0022912814891355993 Eh
+Final Deformation Energy of B (dEB): 0.007261672319046397 Eh
+Final Electrostatic Energy (E_elst): -0.029439897987366237 Eh
+Final Exchange Energy (E_exch): 0.018482262752011088 Eh
+Final Delta LM Energy for A (D_LMA): -0.007025547599241122 Eh
+Final Delta LM Energy for B (D_LMB): 0.003391349146440348 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.0036341984528007742 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.0162793531400105 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.016397243122850836 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_905_5.29_all_potentials_20250613_110037.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_905_5.29_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_905_5.29_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_905_5.29_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_906 at 5.48 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_906
+================================================================================
+Distance: 5.48 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 68aea0a5-567d-4da2-bdd8-8afa3e97db58
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 14.88 seconds.
+RHF for monomer B finished in 14.90 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.429 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 66.27 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 3 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 3
+Final Interaction Energy (E_int): -0.005791349992915855 Eh
+Final HF Energy of A (EA): -76.05768922295866 Eh
+Final HF Energy of B (EB): -76.05417532130801 Eh
+Final Deformation Energy of A (dEA): 0.0016420701084598477 Eh
+Final Deformation Energy of B (dEB): 0.005184288682670513 Eh
+Final Electrostatic Energy (E_elst): -0.022963346744230506 Eh
+Final Exchange Energy (E_exch): 0.012697757733547206 Eh
+Final Delta LM Energy for A (D_LMA): -0.005019403442062753 Eh
+Final Delta LM Energy for B (D_LMB): 0.002667283668699838 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.002352119773362915 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.01346922838660447 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.011428065411538521 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_906_5.48_all_potentials_20250613_110803.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_906_5.48_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_906_5.48_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_906_5.48_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_907 at 5.65 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_907
+================================================================================
+Distance: 5.65 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: e7afe3d2-d6a2-40a9-be8d-2a4e72b61e4d
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 14.75 seconds.
+RHF for monomer B finished in 14.71 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.782 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 66.29 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 3 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 3
+Final Interaction Energy (E_int): -0.0060656308164573364 Eh
+Final HF Energy of A (EA): -76.05810529405026 Eh
+Final HF Energy of B (EB): -76.05554402109466 Eh
+Final Deformation Energy of A (dEA): 0.0012193102278104107 Eh
+Final Deformation Energy of B (dEB): 0.0038094958579790728 Eh
+Final Electrostatic Energy (E_elst): -0.018487064592957125 Eh
+Final Exchange Energy (E_exch): 0.008934768472163178 Eh
+Final Delta LM Energy for A (D_LMA): -0.0036648091960529428 Eh
+Final Delta LM Energy for B (D_LMB): 0.0021226684146000707 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.001542140781452872 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.011425198190778474 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.008173368689168018 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_907_5.65_all_potentials_20250613_111531.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_907_5.65_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_907_5.65_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_907_5.65_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_908 at 5.86 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_908
+================================================================================
+Distance: 5.86 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 697625d6-d05f-4a24-9ddb-d494f1b2b6fb
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 14.54 seconds.
+RHF for monomer B finished in 14.47 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.793 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 65.87 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 3 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 3
+Final Interaction Energy (E_int): -0.006060796489549313 Eh
+Final HF Energy of A (EA): -76.0584455827116 Eh
+Final HF Energy of B (EB): -76.05667905328777 Eh
+Final Deformation Energy of A (dEA): 0.0008733111596654908 Eh
+Final Deformation Energy of B (dEB): 0.0026722637185372378 Eh
+Final Electrostatic Energy (E_elst): -0.014592455100739699 Eh
+Final Exchange Energy (E_exch): 0.00590415012345631 Eh
+Final Delta LM Energy for A (D_LMA): -0.0025310378072163076 Eh
+Final Delta LM Energy for B (D_LMB): 0.001612971416747655 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.0009180663904686526 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.00955038201545122 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.005521620381914577 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_908_5.86_all_potentials_20250613_112247.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_908_5.86_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_908_5.86_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_908_5.86_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_909 at 6.05 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_909
+================================================================================
+Distance: 6.05 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 7b3c7fe1-1598-4ca9-8976-3eea4fec75bb
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 14.86 seconds.
+RHF for monomer B finished in 14.33 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.664 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 65.91 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 3 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 3
+Final Interaction Energy (E_int): -0.005863864193550674 Eh
+Final HF Energy of A (EA): -76.05866637559308 Eh
+Final HF Energy of B (EB): -76.05742079719062 Eh
+Final Deformation Energy of A (dEA): 0.0006487406327977396 Eh
+Final Deformation Energy of B (dEB): 0.0019305620023430947 Eh
+Final Electrostatic Energy (E_elst): -0.011894664515349263 Eh
+Final Exchange Energy (E_exch): 0.004001868247019312 Eh
+Final Delta LM Energy for A (D_LMA): -0.0017889217586883888 Eh
+Final Delta LM Energy for B (D_LMB): 0.0012385511983268316 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.0005503705603615572 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.008177843599909806 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.0038295076078047174 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_909_6.05_all_potentials_20250613_112958.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_909_6.05_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_909_6.05_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_909_6.05_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_910 at 6.24 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_910
+================================================================================
+Distance: 6.24 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 21d490f9-24ec-4458-b753-e1172983ae13
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 14.67 seconds.
+RHF for monomer B finished in 14.11 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.438 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 65.28 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 3 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 3
+Final Interaction Energy (E_int): -0.0055615325314196246 Eh
+Final HF Energy of A (EA): -76.05882415959539 Eh
+Final HF Energy of B (EB): -76.0579501793634 Eh
+Final Deformation Energy of A (dEA): 0.00048797332503625057 Eh
+Final Deformation Energy of B (dEB): 0.0014007127380608608 Eh
+Final Electrostatic Energy (E_elst): -0.00983610872047791 Eh
+Final Exchange Energy (E_exch): 0.0027045067872645684 Eh
+Final Delta LM Energy for A (D_LMA): -0.0012610918039683838 Eh
+Final Delta LM Energy for B (D_LMB): 0.0009424751426649891 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -0.0003186166613033947 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.007073775793667636 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.002652871842928026 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_910_6.24_all_potentials_20250613_113700.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_910_6.24_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_910_6.24_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_910_6.24_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_911 at 6.61 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_911
+================================================================================
+Distance: 6.61 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 96b01cf9-b58c-45f8-abdf-96f8bb995750
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 13.82 seconds.
+RHF for monomer B finished in 14.08 seconds.
+Building ERI tensor...
+...built ERI tensor in 37.048 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 65.01 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 3 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 3
+Final Interaction Energy (E_int): -0.004829629270553739 Eh
+Final HF Energy of A (EA): -76.05902033171338 Eh
+Final HF Energy of B (EB): -76.05859761381473 Eh
+Final Deformation Energy of A (dEA): 0.00028651579845018205 Eh
+Final Deformation Energy of B (dEB): 0.0007476921059605957 Eh
+Final Electrostatic Energy (E_elst): -0.007000595886603733 Eh
+Final Exchange Energy (E_exch): 0.0012268596438512833 Eh
+Final Delta LM Energy for A (D_LMA): -0.0006221468763811799 Eh
+Final Delta LM Energy for B (D_LMB): 0.0005320459441691128 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): -9.010093221206716e-05 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.005435079814754218 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.0012697856215992016 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_911_6.61_all_potentials_20250613_114355.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_911_6.61_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_911_6.61_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_911_6.61_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_912 at 7.56 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_912
+================================================================================
+Distance: 7.56 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: e6daef97-7d94-45fe-bbc1-a7087a2ff68f
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 12.79 seconds.
+RHF for monomer B finished in 12.76 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.786 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 62.39 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 2 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 2
+Final Interaction Energy (E_int): -0.0031590372516109516 Eh
+Final HF Energy of A (EA): -76.05920491019198 Eh
+Final HF Energy of B (EB): -76.05913704763064 Eh
+Final Deformation Energy of A (dEA): 9.20613568951012e-05 Eh
+Final Deformation Energy of B (dEB): 0.00017408082133840708 Eh
+Final Electrostatic Energy (E_elst): -0.003601364783413885 Eh
+Final Exchange Energy (E_exch): 0.00016391931689239189 Eh
+Final Delta LM Energy for A (D_LMA): -0.00010274444673541439 Eh
+Final Delta LM Energy for B (D_LMB): 0.00011501048341244768 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): 1.2266036677033298e-05 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.003155316347379866 Eh
+Iteration 1 Exchange Energy (E_exch_1): 0.00019910701591759842 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_912_7.56_all_potentials_20250613_114847.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_912_7.56_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_912_7.56_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_912_7.56_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_913 at 9.45 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_913
+================================================================================
+Distance: 9.45 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: 4545a2ad-1688-4a63-96d0-b7f6cf570e97
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 10.60 seconds.
+RHF for monomer B finished in 10.62 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.553 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 57.83 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 2 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 2
+Final Interaction Energy (E_int): -0.0014149178583111803 Eh
+Final HF Energy of A (EA): -76.05927467599602 Eh
+Final HF Energy of B (EB): -76.05927428804374 Eh
+Final Deformation Energy of A (dEA): 1.7331143709498065e-05 Eh
+Final Deformation Energy of B (dEB): 1.8562817217571137e-05 Eh
+Final Electrostatic Energy (E_elst): -0.0014549285056197903 Eh
+Final Exchange Energy (E_exch): 2.8988986690921432e-06 Eh
+Final Delta LM Energy for A (D_LMA): -2.7226741536878762e-06 Eh
+Final Delta LM Energy for B (D_LMB): 3.940461866136502e-06 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): 1.2177877124486258e-06 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.0013859275091885337 Eh
+Iteration 1 Exchange Energy (E_exch_1): 4.740202874256496e-06 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_913_9.45_all_potentials_20250613_115301.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_913_9.45_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_913_9.45_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_913_9.45_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Running calculation for H2O..H2O_914 at 11.34 bohr
+
+================================================================================
+Running SART-FQ calculation for H2O..H2O_914
+================================================================================
+Distance: 11.34 bohr
+Configuration: all_potentials
+Basis: aug-cc-pVTZ
+SCF type: direct
+Convergence threshold: 1e-06
+Max iterations: 100
+Job identifier: fc566777-8602-4e1d-aef6-88be0a2b0e69
+
+Potential calculation flags:
+  calc_elst_pot: True
+  calc_exch_pot: True
+  calc_lm: True
+  FQ_elst_exch: True
+  FQ_LM: True
+  SQ_elst_exch: False
+  SQ_LM: False
+  Half_symmetrization: False
+  Full_symmetrization: False
+  debug_verbosity_level: 0
+  debug_functions: False
+================================================================================
+
+
+Initializing SAPT object...
+
+RHF for monomer A finished in 9.58 seconds.
+RHF for monomer B finished in 9.05 seconds.
+Building ERI tensor...
+...built ERI tensor in 36.504 seconds.
+Size of the ERI tensor is 9.17 GB, 184 basis functions.
+
+...finished initializing SAPT object in 55.20 seconds.
+
+=== Starting SART-FQ calculation ===
+Method: FQ for Elst+Exch, FQ for LM
+Calculating: Elst+ Exch+ LM
+Max iterations: 100
+Convergence tolerance: 1e-06
+
+SART-FQ converged in 2 iterations.
+
+--- Final SART-FQ Results ---
+Converged: True
+Iterations: 2
+Final Interaction Energy (E_int): -0.0007425383549747008 Eh
+Final HF Energy of A (EA): -76.05928362067723 Eh
+Final HF Energy of B (EB): -76.0592834397753 Eh
+Final Deformation Energy of A (dEA): 4.916222252404623e-06 Eh
+Final Deformation Energy of B (dEB): 4.3274711458707316e-06 Eh
+Final Electrostatic Energy (E_elst): -0.0007518726632191886 Eh
+Final Exchange Energy (E_exch): 1.7321339837168652e-08 Eh
+Final Delta LM Energy for A (D_LMA): -7.03037983385002e-08 Eh
+Final Delta LM Energy for B (D_LMB): 1.4359730471369403e-07 Eh
+Final Delta LM Energy (= D_LMA + D_LMB): 7.329350637519383e-08 Eh
+Iteration 1 Electrostatic Energy (E_elst_1): -0.0007335644052588464 Eh
+Iteration 1 Exchange Energy (E_exch_1): 1.0708348911292551e-07 Eh
+Iteration energy data saved to: SART_Output/csv/energy_iteration_data_H2O..H2O_914_11.34_all_potentials_20250613_115653.csv
+
+SART-FQ calculation completed successfully.
+Results saved to: SART_Output/reports/H2O..H2O_914_11.34_aug-cc-pVTZ_all_potentials_results.txt
+Plots saved to: SART_Output/reports/H2O..H2O_914_11.34_aug-cc-pVTZ_all_potentials_energy_components.png, SART_Output/reports/H2O..H2O_914_11.34_aug-cc-pVTZ_all_potentials_energy_components_E_int_change.png
+Standardized SART results (in Hartree) saved to CSV:
+         System  Distance       dEA  ...     E_int  E_def_tot[A]  E_def_tot[B]
+0  H2O..H2O_900  4.157406  0.019481  ...  0.035444     -0.023428      0.068847
+1  H2O..H2O_901  4.346379  0.013581  ...  0.020017     -0.019433      0.050284
+2  H2O..H2O_902  4.535352  0.009412  ...  0.009835     -0.015394      0.036673
+3  H2O..H2O_903  4.724325  0.006563  ...  0.003210     -0.011849      0.026870
+4  H2O..H2O_904  5.102271  0.003231  ... -0.003564     -0.006535      0.014480
+
+[5 rows x 14 columns]
