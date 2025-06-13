@@ -40,7 +40,7 @@ psi4.set_options({{
 molecule = psi4.geometry(\"\"\"\n{molecule_block}\"\"\")
 
 # Compute SAPT0 energy decomposition
-E_sapt = energy('sapt0')
+E_sapt = psi4.energy('sapt0')
 
 # Extract individual energy components
 E_elst = psi4.variable('SAPT ELST ENERGY')
@@ -48,20 +48,18 @@ E_exch = psi4.variable('SAPT EXCH ENERGY')
 E_ind = psi4.variable('SAPT IND ENERGY')
 E_disp = psi4.variable('SAPT DISP ENERGY')
 E_total_sapt0 = psi4.variable('SAPT0 TOTAL ENERGY')
+E_hf_total = psi4.variable('SAPT HF TOTAL ENERGY')
 
 # Extract δHF (HF correction)
 try:
-    delta_hf = psi4.variable('SAPT DELTA HF ENERGY')
+    E_hf_total = psi4.variable('SAPT HF TOTAL ENERGY')
+    delta_hf = E_hf_total - (E_elst + E_exch + E_ind)
 except:
-    try:
-        E_hf_total = psi4.variable('SAPT HF TOTAL ENERGY')
-        delta_hf = E_hf_total - (E_elst + E_exch + E_ind)
-    except:
-        delta_hf = 0.0
-        print("Warning: Could not extract delta HF")
+    delta_hf = 0.0
+    print("Warning: Could not extract delta HF")
 
 # Calculate supramolecular HF interaction energy
-E_supramolecular_hf = E_total_sapt0 + delta_hf
+E_supramolecular_hf = E_hf_total
 
 # Convert to common units
 hartree_to_kj = 2625.4996394798254

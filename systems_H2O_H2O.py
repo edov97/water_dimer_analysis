@@ -1,9 +1,6 @@
 SYSTEMS = {
     'H2O..H2O_900': """
 # R_00 = 2.2 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -15,12 +12,12 @@ no_reorient
    O1             -3.55360059       0.00000000      -2.15774746
    H1             -4.59693391       1.45365242      -1.74587771
    H2             -4.59693639      -1.45365150      -1.74588076
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_901': """
 # R_00 = 2.3 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -32,12 +29,12 @@ no_reorient
    O1             -3.71512789       0.00000000      -2.25582689
    H1             -4.75846121       1.45365242      -1.84395714
    H2             -4.75846369      -1.45365150      -1.84396019
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_902': """
 # R_00 = 2.4 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -49,12 +46,12 @@ no_reorient
    O1             -3.87665519       0.00000000      -2.35390632
    H1             -4.91998851       1.45365242      -1.94203657
    H2             -4.91999099      -1.45365150      -1.94203962
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_903': """
 # R_00 = 2.5 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -66,12 +63,12 @@ no_reorient
    O1             -4.03818248       0.00000000      -2.45198575
    H1             -5.08151580       1.45365242      -2.04011599
    H2             -5.08151828      -1.45365150      -2.04011904
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_904': """
 # R_00 = 2.7 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -83,12 +80,12 @@ no_reorient
    O1             -4.36123709       0.00000000      -2.64814461
    H1             -5.40457040       1.45365242      -2.23627486
    H2             -5.40457289      -1.45365150      -2.23627791
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_905': """
 # R_00 = 2.8 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -100,12 +97,12 @@ no_reorient
    O1             -4.52276439       0.00000000      -2.74622404
    H1             -5.56609770       1.45365242      -2.33435429
    H2             -5.56610019      -1.45365150      -2.33435734
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_906': """
 # R_00 = 2.9 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -117,12 +114,12 @@ no_reorient
    O1             -4.68429169       0.00000000      -2.84430347
    H1             -5.72762500       1.45365242      -2.43243372
    H2             -5.72762749      -1.45365150      -2.43243677
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_907': """
 # R_00 = 2.9924 Angstrom  Close to global mininimum
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -134,12 +131,12 @@ no_reorient
    O1             -4.83352211       0.00000000      -2.93491622
    H1             -5.87685543       1.45365242      -2.52304646
    H2             -5.87685791      -1.45365150      -2.52304951
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_908': """
 # R_00 = 3.1 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -151,12 +148,12 @@ no_reorient
    O1             -5.00734629       0.00000000      -3.04046233
    H1             -6.05067960       1.45365242      -2.62859258
    H2             -6.05068209      -1.45365150      -2.62859563
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_909': """
 # R_00 = 3.2 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -168,12 +165,12 @@ no_reorient
    O1             -5.16887358       0.00000000      -3.13854176
    H1             -6.21220690       1.45365242      -2.72667201
    H2             -6.21220939      -1.45365150      -2.72667506
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_910': """
 # R_00 = 3.3 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -185,12 +182,12 @@ no_reorient
    O1             -5.33040088       0.00000000      -3.23662119
    H1             -6.37373420       1.45365242      -2.82475144
    H2             -6.37373669      -1.45365150      -2.82475449
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_911': """
 # R_00 = 3.5 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -202,12 +199,12 @@ no_reorient
    O1             -5.65345548       0.00000000      -3.43278005
    H1             -6.69678880       1.45365242      -3.02091029
    H2             -6.69679128      -1.45365150      -3.02091334
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_912': """
 # R_00 = 4.0 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -219,12 +216,12 @@ no_reorient
    O1             -6.46109198       0.00000000      -3.92317720
    H1             -7.50442530       1.45365242      -3.51130744
    H2             -7.50442778      -1.45365150      -3.51131049
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_913': """
 # R_00 = 5.0 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -236,12 +233,12 @@ no_reorient
    O1             -8.07636497       0.00000000      -4.90397150
    H1             -9.11969829       1.45365242      -4.49210174
    H2             -9.11970077      -1.45365150      -4.49210479
+units bohr
+no_com
+no_reorient
 """,
     'H2O..H2O_914': """
 # R_00 = 6.0 Angstrom
-units Bohr
-no_com
-no_reorient
 0 1
 --
 0 1
@@ -253,5 +250,8 @@ no_reorient
    O1             -9.69163797       0.00000000      -5.88476580
    H1            -10.73497129       1.45365242      -5.47289604
    H2            -10.73497377      -1.45365150      -5.47289909
+units bohr
+no_com
+no_reorient
 """,
 }
