@@ -4,17 +4,19 @@ import psi4
 psi4.set_memory('500 MB')
 psi4.core.set_output_file('H2O..H2O_910_HF_output.dat', False)
 
-# Set options for HF:
+# Set options for HF counterpoise calculation:
 psi4.set_options({
     'basis': 'aug-cc-pVTZ',
     'scf_type': 'pk',
     'freeze_core': True,
     'e_convergence': 1e-9,
     'd_convergence': 1e-8,
+    # Optionally, you might adjust cp-specific options:
+    # 'cp_maxiter': 50,
 })
 
-# Define the molecule.
-molecule H2O..H2O_910 {
+# Define the dimer as a counterpoise molecule. The '--' separates the monomer fragments.
+molecule {
 units Bohr
 no_com
 no_reorient
@@ -31,5 +33,6 @@ no_reorient
    H2             -6.37373669      -1.45365150      -2.82475449
 }
 
-# Perform a supramolecular HF energy calculation.
-energy('SCF')
+# Perform a supramolecular HF energy calculation using counterpoise correction.
+# This will compute the dimer energy and the monomer energies and print the CP-corrected interaction energy.
+energy('SCF/cp')

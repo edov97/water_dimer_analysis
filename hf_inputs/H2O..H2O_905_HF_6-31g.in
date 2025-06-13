@@ -6,7 +6,7 @@ psi4.core.set_output_file('H2O..H2O_905_HF_output.dat', False)
 
 # Set options for HF counterpoise calculation:
 psi4.set_options({
-    'basis': 'aug-cc-pVTZ',
+    'basis': '6-31g',
     'scf_type': 'pk',
     'freeze_core': True,
     'e_convergence': 1e-9,

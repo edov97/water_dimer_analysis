@@ -65,7 +65,7 @@ psi4.set_options({{
 }})
 
 # Define the molecule
-molecule {system_key} {{
+molecule {{
 {molecule_block}
 }}
 
@@ -83,7 +83,10 @@ energy('SAPT0')
 
 def generate_hf_input(geom_str, system_key, basis_hf, output_folder):
     """
-    Generate a Psi4 input file for a supramolecular HF calculation.
+    Generate a Psi4 input file for a supramolecular HF calculation with counterpoise correction.
+    
+    This input file defines the dimer with its fragments (separated by '--') 
+    and calls the counterpoise-corrected HF method to compute the interaction energy.
     
     Parameters:
       geom_str    : str
@@ -91,7 +94,7 @@ def generate_hf_input(geom_str, system_key, basis_hf, output_folder):
       system_key  : str
           Identifier for the system.
       basis_hf    : str
-          The basis set for the HF calculation (e.g., 'aug-cc-pVTZ').
+          The basis set for the HF calculation (e.g., 'aug-cc-pVTZ' or any other).
       output_folder : str
           Directory where the input file will be saved.
     
@@ -99,47 +102,56 @@ def generate_hf_input(geom_str, system_key, basis_hf, output_folder):
       output_file : str
           Full path to the generated Psi4 input file.
     """
+    import os
     os.makedirs(output_folder, exist_ok=True)
     
+    # Process the geometry string
     molecule_block = fix_geometry(geom_str)
     
+    # Build the Psi4 input file as a text string.
+    # Here we call energy('SCF/cp') to invoke the counterpoise correction.
     input_text = f"""import psi4
 
 # Set memory and output.
 psi4.set_memory('500 MB')
 psi4.core.set_output_file('{system_key}_HF_output.dat', False)
 
-# Set options for HF:
+# Set options for HF counterpoise calculation:
 psi4.set_options({{
     'basis': '{basis_hf}',
     'scf_type': 'pk',
     'freeze_core': True,
     'e_convergence': 1e-9,
     'd_convergence': 1e-8,
+    # Optionally, you might adjust cp-specific options:
+    # 'cp_maxiter': 50,
 }})
 
-# Define the molecule.
-molecule {system_key} {{
+# Define the dimer as a counterpoise molecule. The '--' separates the monomer fragments.
+molecule {{
 {molecule_block}
 }}
 
-# Perform a supramolecular HF energy calculation.
-energy('SCF')
+# Perform a supramolecular HF energy calculation using counterpoise correction.
+# This will compute the dimer energy and the monomer energies and print the CP-corrected interaction energy.
+energy('SCF/cp')
 """
+    # Construct the output filename.
     output_file = os.path.join(output_folder, f"{system_key}_HF_{basis_hf}.in")
     with open(output_file, "w") as f:
         f.write(input_text)
     
     return output_file
 
+
 def main():
     # Directories for the output input files.
-    sapt0_output_dir = "/home/evanich/phymol-dc1/water_dimer_analysis/sapt0_inputs"
-    hf_output_dir = "/home/evanich/phymol-dc1/water_dimer_analysis/hf_inputs"
+    sapt0_output_dir = "/home/evanich/water_dimer_analysis/sapt0_inputs"
+    hf_output_dir = "/home/evanich/water_dimer_analysis/hf_inputs"
     
     # Select basis sets.
-    sap_basis = "aug-cc-pVTZ"  # Recommended/truncated aug-cc-pVDZ variant for SAPT0.
-    hf_basis   = "aug-cc-pVTZ"  # For supramolecular HF.
+    sap_basis = "6-31g"  # Recommended/truncated aug-cc-pVDZ variant for SAPT0.
+    hf_basis   = "6-31g"  # For supramolecular HF.
     
     for system_key, geom_str in SYSTEMS.items():
         # Generate SAPT0 input file.

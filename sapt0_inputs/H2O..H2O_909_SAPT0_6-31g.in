@@ -1,0 +1,39 @@
+import psi4
+
+# Set memory and output file.
+psi4.set_memory('500 MB')
+psi4.core.set_output_file('H2O..H2O_909_SAPT0_output.dat', False)
+
+# Set options for SAPT0:
+psi4.set_options({
+    'basis': '6-31g',
+    'scf_type': 'df',
+    'freeze_core': True,
+    'e_convergence': 1e-8,
+    'd_convergence': 1e-8,
+    'maxiter': 50,
+    'PRINT': 1
+})
+
+# Define the molecule
+molecule {
+units Bohr
+no_com
+no_reorient
+0 1
+--
+0 1
+   O1              0.00000000       0.00000000       0.00000000
+   H1             -1.45365196       0.00000000      -1.12168732
+   H2              1.45365196       0.00000000      -1.12168732
+--
+0 1
+   O1             -5.16887358       0.00000000      -3.13854176
+   H1             -6.21220690       1.45365242      -2.72667201
+   H2             -6.21220939      -1.45365150      -2.72667506
+}
+
+# Compute SAPT0 energy. 
+# (Note: Depending on your Psi4 version and installed SAPT module,
+#  SAPT0 might be invoked via the 'energy' command.)
+energy('SAPT0')
