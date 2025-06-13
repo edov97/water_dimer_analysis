@@ -37,12 +37,10 @@ psi4.set_options({{
 }})
 
 # Define the dimer molecule
-molecule {system_key} {{
-{molecule_block}
-}}
+molecule = psi4.geometry(\"\"\"\n{molecule_block}\"\"\")
 
 # Compute SAPT0 energy decomposition
-E_sapt = energy('SAPT0')
+E_sapt = energy('sapt0')
 
 # Extract individual energy components
 E_elst = psi4.variable('SAPT ELST ENERGY')
